@@ -5,6 +5,22 @@
 See https://github.com/premake/premake-core/wiki/What's-New-in-5.0
 for the complete list of changes from the Premake 4.x series.
 
+Since 5.0-alpha13:
+
+* PR #1160 use ';' as default separator for vs (@WorldofBay)
+* PR #1177 Enable property categories in VS projects (@WorldofBay)
+* PR #1178 Avoid impl dependent multi-char constants (@cengizIO)
+* PR #1179 fix `xcodebuildsettings` using false (@tempura-sukiyaki)
+* PR #1180 Add `os.ios` option in xcode4 (@tempura-sukiyaki)
+* PR #1189 Host path.normalize: Fix normalization for paths containing tokens (@tdesveauxPKFX)
+* PR #1191 Fix objname collisions (@ratzlaff)
+* PR #1193 Add tests for xcode id generator (@ratzlaff)
+* PR #1194 Move rule property string expansion into modules (@WorldofBay)
+* PR #1197 Added missing elements in Visual Studio Makefile projects (@LORgames)
+* PR #1202 Support %{file.name} token in VS (@Blizzard)
+* PR #1203 Add support for JavaCompile in vsandroid (@tempura-sukiyaki)
+* PR #1206 Updated code lite to properly add LD_LIBRARY_PATH is set if libdirs is set (@pintodragon)
+
 Since 5.0-alpha12:
 
 * PR #880 Allow tokens to start with a ! to disable making paths relative. (@Blizzard)
